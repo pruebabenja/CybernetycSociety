@@ -10,7 +10,7 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['51936732723', '𝐂𝐘𝐁𝐄𝐑𝐍𝐄𝐓𝐘𝐂 𝐒𝐎𝐂𝐈𝐄𝐓𝐘', true],
+  ['51936732723', '𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓', true],
   ['51936732723', '𝐎𝐖𝐍𝐄𝐑 𝐏𝐑𝐈𝐍𝐂𝐈𝐏𝐀𝐋', true],
   ['51936732723', '𝐒𝐎𝐏𝐎𝐑𝐓𝐄', true],
   ['51936732723', '𝐒𝐎𝐏𝐎𝐑𝐓𝐄 𝐃𝐄 𝐕𝐄𝐍𝐓𝐀𝐒', true],
@@ -41,13 +41,13 @@ global.owner = [
 global.suittag = ['51936732723'];
 global.prems = ['51936732723'];
 
-global.packname = '𝐂𝐘𝐁𝐄𝐑𝐍𝐄𝐓𝐘𝐂 𝐒𝐎𝐂𝐈𝐄𝐓𝐘';
-global.author = '𝐂𝐘𝐁𝐄𝐑𝐍𝐄𝐓𝐘𝐂 𝐒𝐎𝐂𝐈𝐄𝐓𝐘';
-global.wm = '𝐂𝐘𝐁𝐄𝐑𝐍𝐄𝐓𝐘𝐂 𝐒𝐎𝐂𝐈𝐄𝐓𝐘';
-global.titulowm = '𝐂𝐘𝐁𝐄𝐑𝐍𝐄𝐓𝐘𝐂 𝐒𝐎𝐂𝐈𝐄𝐓𝐘';
-global.titulowm2 = `𝐂𝐘𝐁𝐄𝐑𝐍𝐄𝐓𝐘𝐂 𝐒𝐎𝐂𝐈𝐄𝐓𝐘`
-global.igfg = '𝐂𝐘𝐁𝐄𝐑𝐍𝐄𝐓𝐘𝐂 𝐒𝐎𝐂𝐈𝐄𝐓𝐘';
-global.wait = '𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤... 🔮';
+global.packname = '𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓';
+global.author = '𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓';
+global.wm = '𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓';
+global.titulowm = '𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓';
+global.titulowm2 = `𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓`
+global.igfg = '𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓';
+global.wait = '𝐂𝐚𝐫𝐠𝐚𝐧𝐝𝐨 𝐞𝐥 𝐬𝐢𝐬𝐭𝐞𝐦𝐚...';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -67,18 +67,18 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝐂𝐘𝐁𝐄𝐑𝐍𝐄𝐓𝐘𝐂 𝐒𝐎𝐂𝐈𝐄𝐓𝐘`;
-global.gt = '𝐂𝐘𝐁𝐄𝐑𝐍𝐄𝐓𝐘𝐂 𝐒𝐎𝐂𝐈𝐄𝐓𝐘';
-global.mysticbot = '𝐂𝐘𝐁𝐄𝐑𝐍𝐄𝐓𝐘𝐂 𝐒𝐎𝐂𝐈𝐄𝐓𝐘';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓`;
+global.gt = '𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓';
+global.mysticbot = '𝐒𝐘𝐒𝐓𝐄𝐌 𝐁𝐎𝐓';
 global.md = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
 global.mysticbot = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
 global.canalbot = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y';
 global.ig = 'https://www.instagram.com/usxr_angelito';
 global.github = 'https://github.com/Karim-off/XiaBot-Pro';
 global.gtb = 'https://github.com/Karim-off';
-global.waitt = '𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤... 🔮';
-global.waittt = '𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤... 🔮';
-global.waitttt = '𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤... 🔮';
+global.waitt = '𝐂𝐚𝐫𝐠𝐚𝐧𝐝𝐨 𝐞𝐥 𝐬𝐢𝐬𝐭𝐞𝐦𝐚...';
+global.waittt = '𝐂𝐚𝐫𝐠𝐚𝐧𝐝𝐨 𝐞𝐥 𝐬𝐢𝐬𝐭𝐞𝐦𝐚...';
+global.waitttt = '𝐂𝐚𝐫𝐠𝐚𝐧𝐝𝐨 𝐞𝐥 𝐬𝐢𝐬𝐭𝐞𝐦𝐚...';
 global.nomorown = '59168683798';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
